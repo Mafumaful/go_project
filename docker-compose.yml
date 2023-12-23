@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  app:
+    image: mafumaful/golang:1.16
+    build: 
+      context: ./docker
+      dockerfile: ./golang/Dockerfile
+      target: dev
+    volumes:
+        - ./code:/home/docker/code
+    tty: true
