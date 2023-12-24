@@ -8,7 +8,7 @@ docker compose up -d
 And then attach vsc to the container
 
 ```basd
-cd /home/docker/code/test1
+cd /home/docker/code/1_hello-world
 go run .
 ```
 
