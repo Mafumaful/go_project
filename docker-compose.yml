@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   app:
-    image: mafumaful/golang:1.16
+    image: mafumaful/golang:1.21
     build: 
       context: ./docker
       dockerfile: ./golang/Dockerfile
